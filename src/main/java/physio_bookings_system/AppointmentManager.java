@@ -61,7 +61,7 @@ public class AppointmentManager {
             }
 
 
-            System.out.println("\n--- Available Schedules ---");
+            System.out.println("\n--- Available Schedules For Four(4) Weeks  ---");
             for (int i = 0; i < schedules.size(); i++) {
                 System.out.println((i + 1) + ". " + schedules.get(i).replace("{", "").replace("}", ""));
             }
